@@ -1,12 +1,11 @@
 # Tombola_Euclidean_Sequencer
 
-Updated version of Tombola's modular euclidean sequencer:
+Updated version of Sneak-Thief and Tombola's modular euclidean sequencer:
 
 https://www.muffwiggler.com/forum/viewtopic.php?t=45485&start=all&postdays=0&postorder=asc
 
 
 - Note: when first turned on, it automatically run from a fixed speed internal clock until it receives a pulse at the clock input, after that it only triggers externally - 
-
 
 Instructions:
 
@@ -25,9 +24,9 @@ Row 6: Output 3 Pattern (steps 1-8 or 9-16)
 
 Row 7: Which channel is selected
 
-- 2 dots on the left for Channel 1
-- 2 dots in the middle for Channel 2
-- 2 dots on the right for Channel 3
+- 4 dots on the left for Channel 1
+- 4 dots in the middle for Channel 2
+- 4 dots on the right for Channel 3
 
 
 Row 8: Current triggers
@@ -35,11 +34,11 @@ Row 8: Current triggers
 1. Input trigger
 2. -
 3. Output 1 trigger
-4. Output 1 off-beat trigger (when Output 1 isn't playing
-5. Output 2 trigger
-6. -
-7. Output 3 trigger
-8. -
+4. Output 1 off-beat trigger (when Output 1 isn't playing)
+5. -
+6. Output 2 trigger
+7. -
+8. Output 3 trigger
 
 
 - When you have Channel 1 selected and you rotate the N- and K- and Offset knobs, 
