@@ -701,15 +701,8 @@ void Sync() {
 		wakeanim();
 	}
 
-	// clear bottom row
-	//lc.setRow(0,7,0);
-
-	if (masterclock % 2 == 0) { // tick bottom left corner on and off with clock
-		lc.setLed(0, 7, 7, true);
-	}
-	else {
-		lc.setLed(0, 7, 7, false);
-	}
+	// Pulse on every clock beat
+	lc.setLed(0, 7, 7, true);
 
 	// Cycle through channels
 	for (a = 0; a < channels; a++) {
