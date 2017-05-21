@@ -150,18 +150,18 @@ Order: [HIGHEST R] Offset, Length, Density, (unpressed) [LOWEST R]
 // Debug Flag
 int debug = 1; // 0= normal  1= Internal Clock  2= Internal Clock and SerialDump
 
-// Encoder Pins for the Encoder.h library
-Encoder EncK(10, 9);					//	Density
-Encoder EncN(8, 7);						//	Length
-Encoder EncO(6, 5);						//	Offset
-
 // Encoder Pins for internal use (must correspond to the previous pins)
-#define enc1a 10
-#define enc1b 9
+#define enc1a 9
+#define enc1b 10
 #define enc2a 7
 #define enc2b 8
 #define enc3a 5
 #define enc3b 6
+
+// Encoder Pins for the Encoder.h library
+Encoder EncK(enc1a, enc1b);	//	Density
+Encoder EncN(enc2a, enc2b);	//	Length
+Encoder EncO(enc3a, enc3b);	//	Offset
 
 #define sparepin 17 // Offbeat pin
 
